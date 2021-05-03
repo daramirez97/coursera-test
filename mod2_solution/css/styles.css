@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	font-family: helvetica;
+}
+body {
+	background: #D6DBDF;
+}
+
+h1 {
+	text-align: center;
+	color: #34495E;
+	font-weight: 2em;
+}
+
+div#container {
+	float: left;
+	padding: 1%;
+	padding-top: 0px;
+	position: relative;
+	background: #34495E;
+	overflow: auto;
+	color : white;
+	margin-top: 15px;
+	
+}
+
+@media (min-width: 992px) {
+	.col-lg{
+		width: 30%;
+		height: 200px;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+
+}
+@media (min-width: 776px) and (max-width: 991px){
+	.col-md{
+		width: 45%;
+		height: 200px;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+}
+@media (min-width: 776px) and (max-width: 991px){
+	.col-md{
+		width: 46%;
+		height: 200px;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+	.col-md-big{
+		width: 95.2%;
+		height: 180px;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+}
+@media (max-width: 775px){
+	.col-sm{
+		width: 95.2%;
+		height: 180px;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+}
+
+p {
+	clear: right;
+	position: absolute;
+	top: 15%;
+	font-size-adjust: all;
+}
+
+#title {
+	text-align: center;
+	width: 85px;
+	height: 20px;
+  	font-family: helvetica;
+  	margin: 0px;
+  	background-color: #D6DBDF;
+  	color: #34495E;
+  	vertical-align: middle;
+  	position: absolute;
+  	top: 0%;
+  	left: 70%;
+
+
+}
